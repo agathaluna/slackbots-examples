@@ -1,0 +1,64 @@
+{
+    "title": "Ticket",
+    "submit_label": "Submit",
+    "callback_id": "ticket",
+    "state": {
+        "name": "DP"
+    },
+    "elements": [
+        {
+            "label": "Subject",
+            "type": "text",
+            "name": "ticket_subject"
+        },
+        {
+            "label": "Type",
+            "type": "select",
+            "name": "ticket_type",
+            "placeholder": "Choose a type",
+            "options": [
+                {
+                    "label": "Request",
+                    "value": "Request"
+                },
+                {
+                    "label": "Problem",
+                    "value": "Problem"
+                }
+            ]
+        },
+        {
+            "label": "Issue",
+            "type": "select",
+            "name": "ticket_issue",
+            "placeholder": "Choose a issue",
+            "options": [
+                {
+                    "label": "Payslip",
+                    "value": "Payslip"
+                },
+                {
+                    "label": "Others",
+                    "value": "Others"
+                }
+            ]
+        },
+        {
+            "label": "Description",
+            "type": "textarea",
+            "name": "ticket_description"
+        },
+        {
+            "label": "Make ticket visible to everyone?",
+            "type": "select",
+            "name": "ticket_allow",
+            "placeholder": "Choose a option",
+            "options": [
+                {
+                    "label": "No",
+                    "value": "No"
+                }
+            ]
+        }
+    ]
+}

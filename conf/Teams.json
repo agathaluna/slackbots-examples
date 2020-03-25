@@ -1,0 +1,23 @@
+{
+    "fallback": "Upgrade your Slack client to use messages like these.",
+    "color": "#3AA3E3",
+    "attachment_type": "default",
+    "callback_id": "teams_options",
+    "actions": [
+        {
+            "name": "choose_team",
+            "text": "Choose a team",
+            "type": "select",
+            "options": [
+                {
+                    "text": "Infrastructure",
+                    "value": "Infrastructure"
+                },
+                {
+                    "text": "HR",
+                    "value": "HR"
+                }
+            ]
+        }
+    ]
+}
